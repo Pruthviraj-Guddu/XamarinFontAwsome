@@ -11,17 +11,30 @@
         <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
         <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
         
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                        
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
+        
+
+        <Button Text="&#xf11a;" HeightRequest="100" BackgroundColor="DarkRed" TextColor="White" FontSize="36">
+            <Button.FontFamily>
+                <OnPlatform x:TypeArguments="x:String" 
+                            Android="fa-solid-900.ttf#Font Awesome 5 Free Regular" 
+                            iOS="Font Awesome 5 Free" 
+                            WinPhone="Assets/fa-solid-900.ttf#Font Awesome 5 Free" />
+            </Button.FontFamily>
+        </Button>
+        <Label Text="&#xf11a;" 
+               HeightRequest="100" 
+               BackgroundColor="White" 
+               TextColor="Black" 
+               FontSize="36">
+            <Label.FontFamily>
+                <OnPlatform x:TypeArguments="x:String" 
+                            Android="fa-solid-900.ttf#Font Awesome 5 Free Regular" 
+                            iOS="Font Awesome 5 Free" 
+                            WinPhone="Assets/fa-solid-900.ttf#Font Awesome 5 Free" />
+            </Label.FontFamily>
         </Label>
+
+
     </StackLayout>
 
 </ContentPage>

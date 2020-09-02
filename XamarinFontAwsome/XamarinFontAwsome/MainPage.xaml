@@ -10,10 +10,10 @@
         </Frame>
         <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
         <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        
-        
 
-        <Button Text="&#xf11a;" HeightRequest="100" BackgroundColor="DarkRed" TextColor="White" FontSize="36">
+
+
+        <Button Text="&#xe059;" HeightRequest="100" BackgroundColor="DarkRed" TextColor="White" FontSize="36">
             <Button.FontFamily>
                 <OnPlatform x:TypeArguments="x:String" 
                             Android="fa-solid-900.ttf#Font Awesome 5 Free Regular" 
